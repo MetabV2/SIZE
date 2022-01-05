@@ -1,0 +1,23 @@
+_G.Bin = true
+while _G.Bin do
+    wait(0.1)
+
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.95)
+wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.90)
+  wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.85)
+  wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.80)
+  wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.75)
+  wait(0.1)
+ 
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.60)
+  wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.55)
+  wait(0.1)
+game:GetService("ReplicatedStorage").RemoteEvents.Clothes:FireServer("CharacterSizeDown",0.50)
+
+
+end
